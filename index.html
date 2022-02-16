@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="src/css/style.css">
+        <title>Covid-19 Apps</title>
+    </head>
+    <body>
+        <header>
+            <a href="/" class="logo">Covid-19 <span>Apps</span></a>
+            <button class="menu-toggle"></button>
+            <ul class="navigation">
+                <li><a href="/">Home</a></li>
+                <li><a href="#Country">Country</a></li>
+                <li><a href="https://www.dicoding.com/users/vikram27">About us</a></li>
+            </ul>
+        </header>
+        <div class="banner" id="banner">
+            <div class="content">
+                <h1 tabindex="0">Coronavirus</br> disease</h1>
+                <h2>Total Confirmed Cases:</h2>
+                <span class="confirmed-cases"></span>
+                <table class="banner-case">
+                    <tbody>
+                        <tr>
+                            <td>Active cases</td>
+                            <td class="active-case"></td>
+                        </tr>
+                        <tr>
+                            <td>Recovered cases</td>
+                            <td class="recovered-case"></td>
+                        </tr>
+                        <tr>
+                            <td>Total Death</td>
+                            <td class="death-case"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <main>
+            <h2 class="today-case-title">Global Covid Case Today</h2>
+            <section class="global-today-case">
+                <div class="today today-case">
+                    <i class="fa-solid fa-virus-covid"></i>
+                    <div class="information-box">
+                        <span class="cases-today today-global-case"></span></br>
+                        <span class="information-title">Today Case</span>
+                    </div>
+                </div>
+                <div class="today today-recovered">
+                    <i class="fa-solid fa-virus-covid"></i>
+                    <div class="information-box">
+                        <span class="cases-today today-global-recovered"></span></br>
+                        <span class="information-title">Today Recovered</span>
+                    </div>
+                </div>
+                <div class="today today-death">
+                    <i class="fa-solid fa-virus-covid"></i>
+                    <div class="information-box">
+                        <span class="cases-today today-global-death"></span></br>
+                        <span class="information-title">Today Death</span>
+                    </div>
+                </div>
+                <div class="today vaccinated-case">
+                    <i class="fa-solid fa-virus-covid"></i>
+                    <div class="information-box">
+                        <span class="cases-today today-global-vaccinated"></span></br>
+                        <span class="information-title">Total Vaccinated Today </span>
+                    </div>
+                </div>
+            </section>
+            <div id="Country" class="table-container">
+                <h3>Live case by country</h3>
+                <table class="country-table">
+                    <thead>
+                        <tr>
+                            <th>Country</th>
+                            <th>Cases</th>
+                            <th>Active</th>
+                            <th>Recovered</th>
+                            <th>Death</th>
+                            <th>Today Case</th>
+                            <th>Today Recovered</th>
+                            <th>Today Death</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-row-case">
+                        
+                    </tbody>
+                </table>
+            </div>
+            <aside>
+                <article class="card">
+                <h2>profile</h2>
+                <figure>
+                    <img src="/src/assets/imggggggg.jpg">
+                    <section>
+                        <h3>Informasi Lainnya</h3>
+                        <table>
+                           <tr>
+                              <th>Nama </th>
+                              <td>Vikram</td>
+                           </tr>
+                           <tr>
+                              <th>Tangal lahir</th>
+                              <td>27 September 20000</td>
+                           </tr>
+                           <tr>
+                              <th>Tempat Tinggal </th>
+                              <td>Bogor</td>
+                           </tr>
+                              <tr>
+                              <th>E-mail</th>
+                              <td>ramvik36@gmail.com</td>
+                           </tr>
+                       </table>
+                     </section>
+                </figure>
+            </article>
+            </aside>
+        </main>
+        <footer><p>Web Dasar &copy; 2022, Vikram</p></footer>   
+    </body>
+    <script type="module" src="src/js/main.js"></script>
+</html>
