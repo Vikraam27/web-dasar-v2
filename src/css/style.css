@@ -73,7 +73,7 @@ header > .navigation li a:hover{
  * Banner
  *
  */
- .banner{
+.banner{
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -133,7 +133,7 @@ header > .navigation li a:hover{
   margin-left: 49px;
 }
 
-main {
+.container {
   margin: -19px auto 0 auto;
   width: 85%;
   background-color: white;
@@ -240,14 +240,13 @@ aside img{
   width: 80%;
   text-align: center;
 }
-body > main > aside > article > figure > section > table {
+body > main > div.container > aside > article > figure > section > table {
   text-align: left;
 }
 p{ 
   text-align: left;
 }
 main{
-  padding: 20px;
   overflow: auto;
 }
 footer {
@@ -325,7 +324,7 @@ footer {
         font-size: 2.3rem;
     }
 
-    main {
+    .container {
       width: 100%;
       margin: 0;
       padding: 3px;
@@ -336,7 +335,7 @@ footer {
 
     .table-container{
       width: 100%;
-      margin: 20px 0;
+      margin: 30px 0;
       padding: 0;
     }
     .global-today-case > .today{
